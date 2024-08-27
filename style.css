@@ -1,0 +1,145 @@
+input[type=text] {
+      width: 50%;
+      -webkit-transition: width 0.15s ease-in-out;
+      transition: width 0.15s ease-in-out;
+   }
+ 
+   /* When the input field gets focus,
+        change its width to 100% */
+   input[type=text]:focus {
+     width: 90%;
+   }
+ p{font-size:18px}
+
+@media screen and (max-width:700px){
+ #testphone{
+     font-size:60%
+ }
+ .tablinks{
+  width:20%;
+  font-size:6px;
+ }
+ #list{
+    font-size:150%;
+ }
+ #slogan{
+     font-size:120%;
+ }
+ .extensions{
+    display:none;  
+ }
+ .codesis{
+    display:none;
+ }
+ .extenstions2{
+     display:initial;
+ }
+ .othersites{
+     font-size:100%;
+ }
+ a{
+     font-size:70%;
+ }
+}
+@media screen and (min-width:800px){
+.tabs2{
+        display:none;
+    }
+.othersites{
+    font-size:102%;
+}
+[name="searchbar"]{
+    font-size:18px;
+}
+}
+.extensions{
+   background-color:#f2f2f2 
+}
+#mathextension{
+    color:red;
+    background-color:#f2f2f2;
+    font-weight:bold;
+}
+#ssextension{
+    color:orange;
+    background-color:#f2f2f2;
+    font-weight:bold;
+}
+#laextension{
+    color:yellow;
+    background-color:#f2f2f2;
+    font-weight:bold;
+}
+#scienceextension{
+    color:#00b36e;
+    background-color:#f2f2f2;
+    font-weight:bold;
+}
+#mathextension2{
+    color:red;
+    background-color:#f2f2f2;
+    font-weight:bold;
+}
+#ssextension2{
+    color:orange;
+    background-color:#f2f2f2;
+    font-weight:bold;
+}
+#laextension2{
+    color:#e6e600;
+    background-color:#f2f2f2;
+    font-weight:bold;
+}
+#scienceextension2{
+    color:#00b36e;
+    background-color:#f2f2f2;
+    font-weight:bold;
+}
+#exts{
+    font-weight:bold;
+    font-size:10px;
+}
+.othersites {
+  overflow: hidden;
+  border: 0px solid #ccc;
+  background-color:;
+}
+
+/* Style the buttons that are used to open the tab content */
+.othersites a{
+  background-color: #f1f1f1;
+  /*float: left;*/
+  border: 5px solid #f1f1f1;
+  text-decoration:none;
+  outline: none;
+  font-size:120%;
+  /*background-clip:padding-box;*/
+  cursor: pointer;
+  padding: 7px 9px;
+  transition: 0.3s;
+}
+    #codesistance{
+        color:blue;
+        font-weight:bold;
+    }
+    #edusistance{
+        color:darkred;
+        font-weight:bold;
+    }
+    #sitelinks{
+        display:initial;
+    }
+    
+#redcode{
+    background-color:red;
+    color:white;
+    font-weight:bold;
+}
+#linksistance{
+    color:red;
+    font-weight:bold;
+}
+    
+akko{
+    color:purple;
+}
