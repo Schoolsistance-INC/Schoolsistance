@@ -15,11 +15,11 @@
     <body>
         <script></script>
 <div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'home')" id="defaultOpen">Home</button>
-  <button class="tablinks" onclick="openCity(event,'calculators')">Calculator</button>
-  <button class="tablinks" onclick="openCity(event,'wikis')">Wikis/Information</button>
-  <button class="tablinks" onclick="openCity(event, 'eclass')">Eclass</button>
-  <button class="tablinks" onclick="openCity(event, 'games')">Games</button>
+  <button class="tablinks" onclick="openCity(event, 'home', 'tabcontent', 'tablinks')" id="defaultOpen">Home</button>
+  <button class="tablinks" onclick="openCity(event,'calculators', 'tabcontent', 'tablinks')">Calculator</button>
+  <button class="tablinks" onclick="openCity(event,'wikis', 'tabcontent', 'tablinks')">Wikis/Information</button>
+  <button class="tablinks" onclick="openCity(event, 'eclass', 'tabcontent', 'tablinks')">Eclass</button>
+  <button class="tablinks" onclick="openCity(event, 'games', 'tabcontent', 'tablinks')">Games</button>
   <a class="extensions" id="mathextension" href="https://mathsistance-8200677.codehs.me/index.html">Math</a>
   <a class="extensions" id="laextension" href="https://schoolsistancela-8252169.codehs.me/index.html">LA</a>
   <a class="extensions" id="scienceextension" href="https://schoolsistancescience-8247121.codehs.me/index.html">Science</b></a>
@@ -57,7 +57,7 @@
     <a href="https://schoolsistance-phase2-8128372.codehs.me/index.html" id="edulink"></a>
 </div>
         <br>
-        <input id="searchbar" onkeyup="search_website()" type="text"
+        <input id="sites" onkeyup="search('sites')" type="text"
         name="searchbar" placeholder="Look For Websites..">
         <ul id='list'>
             <li class="sites"><h3><a href="https://zoom.us/signin#/login">ZOOM</a></h3><i class="ri"></i></li>
@@ -73,7 +73,7 @@
     </div>    
     <div id="calculators" class="tabcontent">
     <h1 class="pageheader">Calculators</h1>    
-     <input id="searchbar" onkeyup="search_website2()" type="text"
+     <input id="calculator" onkeyup="search('calculator')" type="text"
         name="searchbar" placeholder="Look For Calculators...">
     <ul id='list'>    
     <li class="calculator"><h3><a href="https://www.desmos.com/scientific">DESMOS SCIENTIFIC CALCULATOR</a></h3></li>
@@ -82,7 +82,7 @@
     </div>
     <div id="wikis" class="tabcontent">
         <h1 class="pageheader">Wikis/Information Sites</h1>
-        <input id="searchbar3" onkeyup="search_website3()" type="text"
+        <input id="wiki" onkeyup="search('wiki')" type="text"
         name="searchbar" placeholder="Find Wikis">
         <ul id='list'>
             <li class="wiki"><h3><a href="https://www.wikipedia.org/">WIKIPEDIA</a></h3></li>
@@ -93,7 +93,7 @@
     
     <div id="eclass" class="tabcontent">
         <h1 class= "pageheader">Eclass Pages</h1>
-        <input id="searchbar4" onkeyup="search_website4()" type="text"
+        <input id="eclasspages" onkeyup="search('eclasspages)" type="text"
         name="searchbar" placeholder="Find Your County">
         <ul id='list'>
         <li class="eclasspages"><h3><a href="https://publish.gwinnett.k12.ga.us/gcps/home/gcpslogin">GWINNET COUNTY</a></h3></li>
@@ -101,21 +101,18 @@
     </div>
     <div id="games" class="tabcontent">
         <h1 class="pageheader">Games</h1>
-        <input id="searchbar5" onkeyup="search_website4()" type="text"
+        <input id="game" onkeyup="search('game')" type="text"
         name="searchbar" placeholder="Look for School Games">
         <ul id='list'>
-            <li class="sites"><h3><a href="https://www.gimkit.com/join">GIMKIT</a></h3></li>
-            <li class="sites"><h3><a href="https://play.blooket.com/play">BLOOKET</a></h3></li>
-            <li class="sites"><h3><a href="https://quizizz.com/join?ref=header_tab&lng=en">QUIZZIZ</a></h3></li>
-            <li class="sites"><h3><a href="https://kahoot.it/">KAHOOT</a></h3></li>
-            <li class="sites"><h3><a href="https://quizlet.com/live">QUIZLET</a></h3></li>
+            <li class="game"><h3><a href="https://www.gimkit.com/join">GIMKIT</a></h3></li>
+            <li class="game"><h3><a href="https://play.blooket.com/play">BLOOKET</a></h3></li>
+            <li class="game"><h3><a href="https://quizizz.com/join?ref=header_tab&lng=en">QUIZZIZ</a></h3></li>
+            <li class="game"><h3><a href="https://kahoot.it/">KAHOOT</a></h3></li>
+            <li class="game"><h3><a href="https://quizlet.com/live">QUIZLET</a></h3></li>
         </ul>
     </div>
     </div>
-    <script src="tabs.js"></script>
-    <script src="searchbar.js"></script>
-    <script src="searchbar2.js"></script>
-    <script src="searchbar4.js"></script>
-    <script src="searchbar3.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/Red-Code-INC/Red-Script@1.4.1/script.js" type="module"></script>
+    <script src="script.js"></script>
     </body>
 </html>
