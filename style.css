@@ -135,6 +135,11 @@ input[type=text] {
     color:white;
     font-weight:bold;
 }
+#redcode{
+    background-color:#c00000;
+    color:white;
+      font-weight:bold;
+}
 #linksistance{
     color:red;
     font-weight:bold;
