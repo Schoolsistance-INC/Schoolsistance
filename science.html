@@ -10,10 +10,10 @@
     </head>
     <body>
         <div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'home')" id="defaultOpen">Home</button>
-  <button class="tablinks" onclick="openCity(event,'tab2')">Tab 2</button>
-  <button class="tablinks" onclick="openCity(event,'tab3')">Tab 3</button>
-  <button class="tablinks" onclick="openCity(event, 'tab4')">Tab 4</button>
+  <button class="tablinks" onclick="tab(event, 'home', 'tabcontent', 'tablinks')" name="defaultOpen">Home</button>
+  <button class="tablinks" onclick="tab(event, 'tab2', 'tabcontent', 'tablinks')">Tab 2</button>
+  <button class="tablinks" onclick="tab(event, 'tab3', 'tabcontent', 'tablinks')">Tab 3</button>
+  <button class="tablinks" onclick="tab(event, 'tab4', 'tabcontent', 'tablinks')">Tab 4</button>
 </div>
 
 <div id='home' class="tabcontent">
@@ -30,7 +30,7 @@
 <div id='tab4' class="tabcontent">
     <h1>Tab 4</h1>
 </div>
-<script src="tabs.js"></script>
+        <script src="script.js"></script>
         <script src="./science/script.js"></script>
     </body>
 </html>
