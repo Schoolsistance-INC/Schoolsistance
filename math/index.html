@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+         <script src=math.js type="text/javascript"></script>
+        <title>Schoolsistance | Math</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link rel=" shortcut icon" href="https://codehs.com/uploads/ccc4827a84dad7beb577e7d33fa17aca">
+        <link href="tabs.css" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'home')" id="defaultOpen">Home</button>
+  <button class="tablinks" onclick="openCity(event,'molecalc')">Mole</button>
+  <button class="tablinks" onclick="openCity(event,'heron')">Heron</button>
+  <button class="tablinks" onclick="openCity(event, 'thermo')">Theromochem</button>
+</div>
+<div id='home' class="tabcontent">
+        <h1>Schoolsistance<span class="title">Math</span></h1>
+        special calculators in a single place
+        <br>
+</div>
+<div id="molecalc" class="tabcontent">
+<h3>Moles Calculator</h3>
+        <table>
+            <tr>
+                <td>Moles</td>
+                <td><input type="number" id="mole"></td>
+            </tr>
+            <tr>
+                <td>Grams</td>
+                <td><input type="number" id="gram"></td>
+            </tr>
+            <tr>
+                <td>Molecules</td>
+                <td><input type="number" id="molecule" value=""></td>
+            </tr>
+            <tr>
+                <td># of 1st Element</td>
+                <td><input type="number" id="one" value=""></td>
+            </tr>
+            <tr>
+                <td># of 2nd Element</td>
+                <td><input type="number" id="two" value=""></td>
+            </tr>
+            <tr>
+                <td># of 3rd Element</td>
+                <td><input type="number" id="three" value=""></td>
+            </tr>
+            <tr>
+                <td># of 4th Element</td>
+                <td><input type="number" id="four" value=""></td>
+            </tr><tr>
+                <td>Molar Mass</td>
+                <td><input type="number" id="molar" value=""></td>
+            </tr>
+            <tr>
+                <td>Mass of 1st Element</td>
+                <td><input type="number" id="one2" value=""></td>
+            </tr>
+            <tr>
+                <td>Mass of 2nd Element</td>
+                <td><input type="number" id="two2" value=""></td>
+            </tr>
+            <tr>
+                <td>Mass of 3rd Element</td>
+                <td><input type="number" id="three2" value=""></td>
+            </tr>
+            <tr>
+                <td>Mass of 4th Element</td>
+                <td><input type="number" id="four2" value=""></td>
+            </tr>
+            <tr>
+                <td>Moles</td>
+                <td><input type="number" id="extra" value=""></td>
+            </tr>
+            <tr>
+                <td>Moles</td>
+                <td><input type="number" id="extra1" value=""></td>
+            </tr>
+            <tr>
+                <td>Moles</td>
+                <td><input type="number" id="extra2" value=""></td>
+            </tr>
+            
+        </table>
+<button onclick="calc1()">Calculate</button>
+<br>
+<div class="equals">=</div>
+    <table>
+        <tr>
+            <td>Grams:</td>
+            <td><div id="output"></div></td>
+        </tr>
+        <tr>
+            <td>Moles:</td>
+            <td><div id="trest"></div></td>
+        </tr>
+        <tr>
+            <td>Molecules:</td>
+            <td><div id="output2"></div></td>
+        </tr>
+        <tr>
+            <td>Molar Mass:</td>
+            <td><div id="output3"></div></td>
+        </tr>
+        <tr>
+            <td>% of 1st Element:</td>
+            <td><div id="output4"></div></td>
+        </tr>
+        <tr>
+            <td>% of 2nd Element:</td>
+            <td><div id="output5"></div></td>
+        </tr>
+        <tr>
+            <td>% of 3rd Element:</td>
+            <td><div id="output6"></div></td>
+        </tr>
+        <tr>
+            <td>% of 4th Element:</td>
+            <td><div id="output7"></div></td>
+        </tr>
+        <tr>
+            <td>Total Mass of Compound:</td>
+            <td><div id="output8"></div></td>
+        </tr>
+        <tr>
+            <td>Grams</td>
+            <td><div id="output9"></div></td>
+        </tr>
+        <tr>
+            <td>Grams</td>
+            <td><div id="output0"></div></td>
+        </tr>
+    </table>
+
+</div>
+<div id="heron" class="tabcontent">
+    <h3>Heron Calculator</h3>
+        <table>
+            <tr>
+                <td>Side A</td>
+                <td><input type="number" id="side1"></td>
+            </tr>
+            <tr>
+                <td>Side B</td>
+                <td><input type="number" id="side2"></td>
+            </tr>
+            <tr>
+                <td>Side C</td>
+                <td><input type="number" id="side3"></td>
+            </tr>
+            <tr>
+                <td>Perimeter</td>
+                <td><input type="number" id="perim"></td>
+            </tr>
+        </table>
+        <button onclick="calc2()">Calculate</button>
+        <br>
+        <div class="equals">=</div>
+        <table>
+            <tr>
+                <td>Area:</td>
+                <td><div id="output12"></div></td>
+            </tr>
+            <tr>
+                <td>Perimiter:</td>
+                <td><div id="output22"></div></td>
+            </tr>
+        </table>
+</div>
+<div id="thermo" class="tabcontent">
+    <h3>Thermochemistry</h3>
+    <table>
+        <tr>
+            <td>Mass</td>
+            <td><input type="number" id="hmass"></td>
+        </tr>
+        <tr>
+            <td>Specific Heat Capacity</td>
+            <td><input type="number" id="heat-s"></td>
+        </tr>
+        <tr>
+            <td>Temp Change</td>
+            <td><input type="number" id="tchange"></td>
+        </tr>
+        <tr>
+            <td>Initial Temp</td>
+            <td><input type="number" id="temp1"></td>
+        </tr>
+        <tr>
+            <td>Final Temp</td>
+            <td><input type="number" id="temp2"></td>
+        </tr>
+        <tr>
+            <td>Initial Mass</td>
+            <td><input id="imass"></td>
+        </tr>
+        <tr>
+            <td>Final Mass</td>
+            <td><input id="fmass"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="number" id="mcd"></td>
+        </tr>
+    </table>
+    <button onclick="calc3()">Calculate</button>
+    <br>
+    <div class="equals">=</div>
+    <table>
+        <tr>
+            <td>Mass:</td>
+            <td><div id="output31"></div></td>
+        </tr>
+        <tr>
+            <td>Energy (cal):</td>
+            <td><div id="output32"></div></td>
+        </tr>
+        <tr>
+            <td>Energy (Cal):</td>
+            <td><div id="output33"></div></td>
+        </tr>
+        <tr>
+            <td>Energy (Joule):</td>
+            <td><div id="output34"></div></td>
+        </tr>
+        <tr>
+            <td>Specific Heat Capacity:</td>
+            <td><div id="output35"></div></td>
+        </tr>
+        <tr>
+            <td>Temp Change:</td>
+            <td><div id="output36"></div></td>
+        </tr>
+        <tr>
+            <td>Energy Content</td>
+            <td><div id="output37"></div></td>
+        </tr>
+    </table>
+</div>
+        <script src="tabs.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
