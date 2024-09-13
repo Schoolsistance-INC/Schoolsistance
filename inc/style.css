@@ -8,6 +8,7 @@
 .tab h2{
   display:inline-block;
   float:left;
+  margin-bottom:0;
 }
 .tab button{
   display:inline-block;
