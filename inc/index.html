@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Schoolsistance</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+        <link rel="shortcut icon" href="./Schoolsistance-Logo-FAVICON.png"> 
+        <link href="../style.css" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Red-Code-INC/Red-Icons@1.2.5/icons.css">
+        <link href="../tabs.css" rel="stylesheet">
+        <style>
+        </style>
+    </head>
+    <body>
+        <div class="tab">
+            <div id="title">Schoolsistance INC</div>
+            <button class="tablinks" onclick="tab(event, 'home', 'tabcontent', 'tablinks')" name="defaultOpen">Home</button>
+            <button class="tablinks" onclick="tab(event,'calculators', 'tabcontent', 'tablinks')">About</button>
+            <button class="tablinks" onclick="tab(event,'wikis', 'tabcontent', 'tablinks')">News/Updates</button>
+            <button class="tablinks" onclick="tab(event, 'eclass', 'tabcontent', 'tablinks')">Settings</button>
+        </div>
+        <br>
+    <div id="home" class="tabcontent">    
+        <h1>Schoolsistance INC</h1>
+        <p id="slogan"></p>
+        <table id="sitelinks">
+          <tr>
+            <td><a href="./">Schoolsistance</a></td>
+          <tr>
+            <td><a href="https://edusistance.netlify.app">Edusistance</a></td>
+          </tr>
+          <tr>
+            <td><a href="https://redcodeinc.netlify.app">Red Code</a></td>
+          <tr>
+            <td><a href="https://5thred.netlify.app">5th Red</a></td>
+          </tr>
+        </table>
+    </div>    
+    <div id="calculators" class="tabcontent">
+    <h1 class="pageheader">Calculators</h1>    
+     <input id="calculator" onkeyup="search('calculator')" type="text"
+        name="searchbar" placeholder="Look For Calculators...">
+    <ul id='list'>    
+    <li class="calculator"><h3><a href="https://www.desmos.com/scientific">DESMOS SCIENTIFIC CALCULATOR</a></h3></li>
+    <li class="calculator"><h3><a href="https://www.desmos.com/calculator">DESMOS GRAPHING CALCULATOR</a></h3></li>
+    </ul>
+    </div>
+    <div id="wikis" class="tabcontent">
+        <h1 class="pageheader">Wikis/Information Sites</h1>
+        <input id="wiki" onkeyup="search('wiki')" type="text"
+        name="searchbar" placeholder="Find Wikis">
+        <ul id='list'>
+            <li class="wiki"><h3><a href="https://www.wikipedia.org/">WIKIPEDIA</a></h3></li>
+             <li class="wiki"><h3><a href="https://www.dictionary.com/">DICTONARY.COM</a></h3></li>
+            <li class="wiki"><h3><a href="https://www.deepl.com/en/translator">TRANSLATOR</a></h3></li>
+        </ul>
+    </div>
+    
+    <div id="eclass" class="tabcontent">
+        <h1 class= "pageheader">Eclass Pages</h1>
+        <input id="eclasspages" onkeyup="search('eclasspages)" type="text"
+        name="searchbar" placeholder="Find Your County">
+        <ul id='list'>
+        <li class="eclasspages"><h3><a href="https://publish.gwinnett.k12.ga.us/gcps/home/gcpslogin">GWINNET COUNTY</a></h3></li>
+        </ul>
+    </div>
+    <div id="games" class="tabcontent">
+        <h1 class="pageheader">Games</h1>
+        <input id="game" onkeyup="search('game')" type="text"
+        name="searchbar" placeholder="Look for School Games">
+        <ul id='list'>
+            <li class="game"><h3><a href="https://www.gimkit.com/join">GIMKIT</a></h3></li>
+            <li class="game"><h3><a href="https://play.blooket.com/play">BLOOKET</a></h3></li>
+            <li class="game"><h3><a href="https://quizizz.com/join?ref=header_tab&lng=en">QUIZZIZ</a></h3></li>
+            <li class="game"><h3><a href="https://kahoot.it/">KAHOOT</a></h3></li>
+            <li class="game"><h3><a href="https://quizlet.com/live">QUIZLET</a></h3></li>
+        </ul>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/gh/Red-Code-INC/Red-Script@1.4.1/script.js" type="module"></script>
+    <script src="../script.js"></script>
+    </body>
+</html>
