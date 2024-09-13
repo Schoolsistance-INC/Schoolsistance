@@ -1,10 +1,10 @@
 .tab{
   position:fixed;
 /*   padding:5px; */
-  background-color:red;
+  background-color:deepslate;
   top:0;
   left:0;
-  color:white;
+  color:red;
   width:100%;
 }
 
@@ -19,6 +19,6 @@
 }
 .tab button{
   display:inline-block;
-  color:white;
+  color:red;
 /*   float:right; */
 }
