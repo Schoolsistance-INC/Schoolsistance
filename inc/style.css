@@ -15,4 +15,6 @@
 }
 .tab button{
   display:inline-block;
+  color:white;
+  font-weight:bold;
 }
