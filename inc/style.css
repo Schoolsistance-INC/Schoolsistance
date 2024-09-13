@@ -1,3 +1,6 @@
+.tab h2{
+  display:inline-block;
+}
 .tab button{
   display:inline-block;
 }
