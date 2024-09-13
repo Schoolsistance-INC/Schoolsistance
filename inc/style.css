@@ -19,4 +19,5 @@
 .tab button{
   display:inline-block;
   color:white;
+  float:right;
 }
