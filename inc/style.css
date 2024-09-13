@@ -7,7 +7,7 @@
   color:white;
 }
 
-.tab#title{
+.tab #title{
   display:inline-block;
   float:left;
   font-size:25px;
