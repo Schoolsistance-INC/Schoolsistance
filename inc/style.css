@@ -17,6 +17,9 @@
   margin-top:7px;
   padding:0px 16px;
 }
+h1{
+  color:red;
+}
 .tab button{
   display:inline-block;
   color:red;
