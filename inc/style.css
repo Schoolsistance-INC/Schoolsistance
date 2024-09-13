@@ -7,7 +7,7 @@
   color:white;
 }
 
-.tab h2{
+.tab#title{
   display:inline-block;
   float:left;
 /*   padding:14px; */
