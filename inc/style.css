@@ -10,12 +10,12 @@
 .tab#title{
   display:inline-block;
   float:left;
+  font-size:25px;
+  font-weight:bold;
 /*   padding:14px; */
   margin-top:7px;
 }
 .tab button{
   display:inline-block;
   color:white;
-  font-size:25px;
-  font-weight:bold;
 }
