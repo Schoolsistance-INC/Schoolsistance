@@ -2,14 +2,16 @@
   position:fixed;
 /*   padding:5px; */
   background-color:red;
+  top:0;
+  left:0;
   color:white;
 }
 
 .tab h2{
   display:inline-block;
   float:left;
-  padding:14px;
-  margin:5px;
+/*   padding:14px; */
+  margin:0;
 }
 .tab button{
   display:inline-block;
