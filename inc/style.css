@@ -16,5 +16,6 @@
 .tab button{
   display:inline-block;
   color:white;
+  font-size:25px;
   font-weight:bold;
 }
