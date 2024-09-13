@@ -15,9 +15,10 @@
   font-weight:bold;
 /*   padding:14px; */
   margin-top:7px;
+  padding:0px 16px;
 }
 .tab button{
   display:inline-block;
   color:white;
-  float:right;
+/*   float:right; */
 }
