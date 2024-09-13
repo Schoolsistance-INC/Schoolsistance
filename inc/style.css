@@ -20,5 +20,6 @@
 .tab button{
   display:inline-block;
   color:red;
+  font-weight:bold;
 /*   float:right; */
 }
